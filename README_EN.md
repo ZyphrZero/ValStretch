@@ -68,7 +68,9 @@ The project is closed-source for now; whether it goes open-source later is to be
 
 First make sure the target resolution is a common 4:3 mode your monitor and GPU support, e.g. `1440x1080`, `1280x960`, `1280x1024`.
 
-If you still get black bars, set the scaling mode to "Full" in your GPU control panel or monitor OSD.
+If black bars still appear, enable the NVIDIA scaling override option under "Advanced settings" in ValStretch. This option is synchronized with NVIDIA App and remains unchanged when the game or ValStretch exits.
+
+If black bars remain after enabling the override, check that the scaling mode in NVIDIA App / your GPU control panel is set to "Full", and also check your monitor's OSD scaling settings.
 
 ### Auto mode not responding?
 
